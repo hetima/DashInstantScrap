@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA963B6E18DB0E9A0009CE34 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA963B6D18DB0E9A0009CE34 /* WebKit.framework */; };
+		AAB480AA18D9440B00F4DC1C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB480A918D9440B00F4DC1C /* Cocoa.framework */; };
+		AAB480B418D9440B00F4DC1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB480B218D9440B00F4DC1C /* InfoPlist.strings */; };
+		AAB480BD18D9512000F4DC1C /* DISDashInstantScrapCore.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB480BC18D9512000F4DC1C /* DISDashInstantScrapCore.m */; };
+		AAB480C118D9560400F4DC1C /* DISWebClipWinCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB480BF18D9560400F4DC1C /* DISWebClipWinCtl.m */; };
+		AAB480C218D9560400F4DC1C /* DISWebClipWinCtl.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB480C018D9560400F4DC1C /* DISWebClipWinCtl.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA963B6D18DB0E9A0009CE34 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AAB480A618D9440B00F4DC1C /* DashInstantScrap.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashInstantScrap.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB480A918D9440B00F4DC1C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AAB480AC18D9440B00F4DC1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAB480AD18D9440B00F4DC1C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AAB480AE18D9440B00F4DC1C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AAB480B118D9440B00F4DC1C /* DashInstantScrap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DashInstantScrap-Info.plist"; sourceTree = "<group>"; };
+		AAB480B318D9440B00F4DC1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAB480B518D9440B00F4DC1C /* DashInstantScrap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DashInstantScrap-Prefix.pch"; sourceTree = "<group>"; };
+		AAB480BB18D9512000F4DC1C /* DISDashInstantScrapCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DISDashInstantScrapCore.h; sourceTree = "<group>"; };
+		AAB480BC18D9512000F4DC1C /* DISDashInstantScrapCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DISDashInstantScrapCore.m; sourceTree = "<group>"; };
+		AAB480BE18D9560300F4DC1C /* DISWebClipWinCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DISWebClipWinCtl.h; sourceTree = "<group>"; };
+		AAB480BF18D9560400F4DC1C /* DISWebClipWinCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DISWebClipWinCtl.m; sourceTree = "<group>"; };
+		AAB480C018D9560400F4DC1C /* DISWebClipWinCtl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DISWebClipWinCtl.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB480A318D9440B00F4DC1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA963B6E18DB0E9A0009CE34 /* WebKit.framework in Frameworks */,
+				AAB480AA18D9440B00F4DC1C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB4809D18D9440B00F4DC1C = {
+			isa = PBXGroup;
+			children = (
+				AAB480AF18D9440B00F4DC1C /* DashInstantScrap */,
+				AAB480A818D9440B00F4DC1C /* Frameworks */,
+				AAB480A718D9440B00F4DC1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB480A718D9440B00F4DC1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB480A618D9440B00F4DC1C /* DashInstantScrap.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB480A818D9440B00F4DC1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA963B6D18DB0E9A0009CE34 /* WebKit.framework */,
+				AAB480A918D9440B00F4DC1C /* Cocoa.framework */,
+				AAB480AB18D9440B00F4DC1C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAB480AB18D9440B00F4DC1C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB480AC18D9440B00F4DC1C /* Foundation.framework */,
+				AAB480AD18D9440B00F4DC1C /* CoreData.framework */,
+				AAB480AE18D9440B00F4DC1C /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AAB480AF18D9440B00F4DC1C /* DashInstantScrap */ = {
+			isa = PBXGroup;
+			children = (
+				AAB480B018D9440B00F4DC1C /* Supporting Files */,
+				AAB480BB18D9512000F4DC1C /* DISDashInstantScrapCore.h */,
+				AAB480BC18D9512000F4DC1C /* DISDashInstantScrapCore.m */,
+				AAB480BE18D9560300F4DC1C /* DISWebClipWinCtl.h */,
+				AAB480BF18D9560400F4DC1C /* DISWebClipWinCtl.m */,
+				AAB480C018D9560400F4DC1C /* DISWebClipWinCtl.xib */,
+			);
+			path = DashInstantScrap;
+			sourceTree = "<group>";
+		};
+		AAB480B018D9440B00F4DC1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB480B118D9440B00F4DC1C /* DashInstantScrap-Info.plist */,
+				AAB480B218D9440B00F4DC1C /* InfoPlist.strings */,
+				AAB480B518D9440B00F4DC1C /* DashInstantScrap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB480A518D9440B00F4DC1C /* DashInstantScrap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB480B818D9440B00F4DC1C /* Build configuration list for PBXNativeTarget "DashInstantScrap" */;
+			buildPhases = (
+				AAB480A218D9440B00F4DC1C /* Sources */,
+				AAB480A318D9440B00F4DC1C /* Frameworks */,
+				AAB480A418D9440B00F4DC1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DashInstantScrap;
+			productName = DashInstantScrap;
+			productReference = AAB480A618D9440B00F4DC1C /* DashInstantScrap.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB4809E18D9440B00F4DC1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hetima;
+			};
+			buildConfigurationList = AAB480A118D9440B00F4DC1C /* Build configuration list for PBXProject "DashInstantScrap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAB4809D18D9440B00F4DC1C;
+			productRefGroup = AAB480A718D9440B00F4DC1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB480A518D9440B00F4DC1C /* DashInstantScrap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB480A418D9440B00F4DC1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB480C218D9560400F4DC1C /* DISWebClipWinCtl.xib in Resources */,
+				AAB480B418D9440B00F4DC1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB480A218D9440B00F4DC1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB480BD18D9512000F4DC1C /* DISDashInstantScrapCore.m in Sources */,
+				AAB480C118D9560400F4DC1C /* DISWebClipWinCtl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAB480B218D9440B00F4DC1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB480B318D9440B00F4DC1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB480B618D9440B00F4DC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAB480B718D9440B00F4DC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAB480B918D9440B00F4DC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DashInstantScrap/DashInstantScrap-Prefix.pch";
+				INFOPLIST_FILE = "DashInstantScrap/DashInstantScrap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AAB480BA18D9440B00F4DC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DashInstantScrap/DashInstantScrap-Prefix.pch";
+				INFOPLIST_FILE = "DashInstantScrap/DashInstantScrap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB480A118D9440B00F4DC1C /* Build configuration list for PBXProject "DashInstantScrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB480B618D9440B00F4DC1C /* Debug */,
+				AAB480B718D9440B00F4DC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB480B818D9440B00F4DC1C /* Build configuration list for PBXNativeTarget "DashInstantScrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB480B918D9440B00F4DC1C /* Debug */,
+				AAB480BA18D9440B00F4DC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB4809E18D9440B00F4DC1C /* Project object */;
+}
