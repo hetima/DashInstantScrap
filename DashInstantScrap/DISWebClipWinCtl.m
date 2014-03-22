@@ -126,6 +126,10 @@
         
         for (i=0; i<cnt; i++) {
             DOMElement* node=(DOMElement*)[childNodes item:0];
+            //remove extra margin
+            if (i==0) {
+                [[node style]removeProperty:@"margin-top"];
+            }
             [content appendChild:node];
         }
         
